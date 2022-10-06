@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!-- Css File  -->
+    <link rel="stylesheet" href="./Css/index.Css" />
+    <title>Resume-Builder</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Ankit Meena</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>
+                Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bxs-user nav__icon"></i>
+                Profile
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#eduction" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>
+                Eduction
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>
+                Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>
+                Experience
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bxs-award nav__icon"></i>
+                Certificates
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements  within this div is generted PDF -->
+
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!-- Home -->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="./Img/myPic.png" alt="" class="home__img" />
+
+                <h1 class="home__title">
+                  ANKIT
+                  <b>MEENA</b>
+                </h1>
+                <h3 class="home__profession">Web Developer</h3>
+                <!-- Button to Download your CV saved in pdf folder -->
+                <div>
+                  <a
+                    download=""
+                    href="./Pdf/MyResume.pdf"
+                    class="home__button-movil">
+                    Download
+                  </a>
+                </div>
+              </div>
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>
+                  Indore Madhya Pradesh
+                </span>
+
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  ankitmeena2072000@gmail.com
+                </span>
+
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i>
+                  76749 - 88775
+                </span>
+              </div>
+            </div>
+            <!--==========Theme Change Button======-->
+            <i
+              class="bx bx-moon change-theme"
+              title="theme"
+              id="theme-button"></i>
+            <!--=======Button to Generate pdf  and Download Your pdf Available for Desktop===========-->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"></i>
+          </section>
+
+          <!-- Social -->
+          <div class="section social">
+            <h2 class="section-title">SOCIAL</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/feed/"
+                target="_blank"
+                class="social__link">
+                <i class="bx bxl-linkedin social__icon"></i>
+                Ankit Meena
+              </a>
+              <a
+                href="https://www.facebook.com/shrvansingh.meena"
+                target="_blank"
+                class="social__link">
+                <i class="bx bxl-facebook social__icon"></i>
+                Ankit Meena
+              </a>
+              <a
+                href="https://www.instagram.com/a.m.ankit/"
+                target="_blank"
+                class="social__link">
+                <i class="bx bxl-instagram social__icon"></i>
+                Ankit Meena
+              </a>
+            </div>
+          </div>
+          <!-- Profile -->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+
+            <p class="profile__description">
+              I am A Ankit,responsible with their Work during Working Hours.
+              finish various technical and higher studies at large
+              universities.have several month of experience and achievements in
+              the Software field
+            </p>
+          </section>
+
+          <!-- Skills -->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  HTML
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  CSS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Javascript
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Vue JS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Quasar
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Tailwind Css
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="resume__right">
+          <!--==============Eduction==================-->
+          <section class="eduction section" id="eduction">
+            <h2 class="section-title">Eduction</h2>
+            <div class="eduction__container bd-grid">
+              <div class="eduction__content">
+                <div class="eduction__time">
+                  <span class="eduction__rounder"></span>
+                  <span class="eduction__line"></span>
+                </div>
+
+                <div class="eduction__data bd-grid">
+                  <h3 class="eduction__title">
+                    BACHELOR OF COMPUTER APPLICATION
+                  </h3>
+                  <span class="eduction__studies">
+                    Maharishi Mahesh Yogi Vedic Vishyavidhalya
+                  </span>
+                  <span class="eduction__year">2019 - 2022</span>
+                </div>
+              </div>
+
+              <div class="eduction__content">
+                <div class="eduction__time">
+                  <span class="eduction__rounder"></span>
+                  <!-- <span class="eduction__line"></span> -->
+                </div>
+
+                <div class="eduction__data bd-grid">
+                  <h3 class="eduction__title">Ui Developer</h3>
+                  <span class="eduction__studies">Mahera Technologies</span>
+                  <span class="eduction__year">June2022 - Oct2022</span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--=================Experience===================-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">FRONTEND DEVELOPER</h3>
+                  <span class="experience__company">
+                    From 2021 to 2022 | Dollop Infotech
+                  </span>
+                  <p class="experience__description">
+                    Work in this company dedicating the best responsibility in
+                    the area that corrensponds, deleivering the best results for
+                    the company and improving productivity.
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">UI DEVELOPER</h3>
+                  <span class="experience__company">
+                    From 2022 to present | Mahera Technology
+                  </span>
+                  <p class="experience__description">
+                    Work in this company dedicating the best responsibility in
+                    the area that corrensponds, deleivering the best results for
+                    the company and improving productivity.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--===============Languages===============-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span>
+                  Hindi
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span>
+                  English
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--================Interested================-->
+          <section class="interest section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name">Music</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-dumbbell interests__icon"></i>
+                <span class="interests__name">Fitness</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bxs-plane-alt interests__icon"></i>
+                <span class="interests__name">Travelling</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name">Reading</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--==============Scroll Top==============-->
+    <a href="#" class="scrooltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrollTop__icon"></i>
+    </a>
+    <!-- . HTML2 PDF -->
+    <script src="./js/html2pdf.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
